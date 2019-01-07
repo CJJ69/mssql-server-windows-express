@@ -1,7 +1,7 @@
 #ARG SERVERCORE_VERSION=ltsc2019
 ARG SERVERCORE_VERSION=1803
-#FROM mcr.microsoft.com/windows/servercore:${SERVERCORE_VERSION}
-FROM microsoft/windowsservercore:${SERVERCORE_VERSION}
+FROM mcr.microsoft.com/windows/servercore:${SERVERCORE_VERSION}
+#FROM microsoft/windowsservercore:${SERVERCORE_VERSION}
 
 LABEL maintainer "Perry Skountrianos"
 
